@@ -5,29 +5,46 @@
 <head>
 <style>
 	<!-- Shortens the whitespace b/w <p> & <ul> -->
-	<!--p + br + ul {
-		margin-top: -50px;
-	}-->
+	#Pwhitespace {
+		margin-bottom: 0px;
+	}
+	
+	#ULwhitespace {
+		margin-top: -10px;
+	}
+	
+	<!-- Styling for title -->
+	h1.title {
+		font-family: Arial;
+		font-size: 3em;
+		margin-bottom: -10px;
+	}
+	
+	<!-- Styling for Section Heads -->
+	h3.bold {
+		font-weight: bold;
+	}
 </style>
 </head>
 
 <body>
 
 	<!--Title-->
-	<h1>Brendan Burke</h1>
-	<h3>Lakeland, Florida 33823 | burke212@live.com</h3>
+	<h1 class="title">Brendan Burke</h1>
+	<h3>Lakeland, Florida | burke212@live.com</h3>
   
 	<hr>
 	<!--Education Section-->
-	<p><b>Education and Academic Excellence</b><br>
-	Bachelor of Science in Computer Science, Concentrations in Cyber-Gaming and Cyber-Security. Expected May 2018.<br>
+	<!--<p><b>Education and Academic Excellence</b><br></p>-->
+	<h3 class="bold">Education and Academic Excellence</h3>
+	<p>Bachelor of Science in Computer Science, Concentrations in Cyber-Gaming and Cyber-Security. Expected May 2018.<br>
 	Florida Polytechnic University, Lakeland, Florida.</p>
 	
 	<br>
   
-	<p><b>Associats of Arts. Graduated May 2014.</b><br>
+	<p id="Pwhitespace">Associats of Arts. Graduated May 2014.<br>
 	Northwest Florida State College, Niceville, Florida.</p>
-	<ul>
+	<ul id="ULwhitespace">
 		<li>Magna Cum Laude</li>
 		<li>President's List</li>
 		<li>Phi Theta Kappa member</li>
@@ -35,53 +52,53 @@
   
 	<hr>
 	<!--Work Section-->
-	<p><b>Work Experience</b></p>
+	<h3 class="bold">Work Experience</h3>
   
-	<p>Customer Support Engineer Intern. Summer 2017.<br>
+	<p id="Pwhitespace">Customer Support Engineer Intern. Summer 2017.<br>
 	Accusoft</p>
-	<ul>
+	<ul id="ULwhitespace">
 		<li>Collaborated with peers on resolving various IT challenges</li>
 		<li>Supported customers with resolutions to software malfunctions</li>
 	</ul>	
 	
 	<br>
 	
-	<p>Fitness Coach. Fall 2016 – Summer 2017.<br>
+	<p>Fitness Coach. Fall 2016 &#8210; Summer 2017.<br>
 	Ultra-Fit</p>
 	
 	<br>
 	
-	<p>Intern. Spring 2016.<br>
+	<p id="Pwhitespace">Intern. Spring 2016.<br>
 	Lakeland Regional Health</p>
-	<ul>
+	<ul id="ULwhitespace">
 		<li>Worked with a team on digitally mapping time management tracking devices in various units within LRH</li>
 	</ul>
 	
 	<br>
 	
-	<p>Resident Assistant. Fall 2015 – Spring 2016.<br>
+	<p>Resident Assistant. Fall 2015 &#8210; Spring 2016.<br>
 	Florida Polytechnic University</p>
 	
 	<br>
 	
-	<p>Summer Refresh Team Member. Summer 2015<br>
+	<p id="Pwhitespace">Summer Refresh Team Member. Summer 2015<br>
 	L3 Communications</p>
-	<ul>
+	<ul id="ULwhitespace">
 		<li>Refreshed and improved local school computers performance</li>
 	</ul>
 	
 	
 	<hr>
 	<!--Projects Section-->
-	<p><b>Projects</b></p>
+	<h3 class="bold">Projects</h3>
 	<!-- For now just say what the projects are. In the future, figure out how to allow users to download projects -->
 	<p>Vending Machine Interface Simulator</p>
-	<p>Early Bird - A Unity Game</P>
+	<p>Early Bird &#8210; A Unity Game</P>
 	<p>Saddle Creek Logistics Services Implementation Document</p>
   
 	<hr>
 	<!--Key Skills Section-->
-	<p><b>Key Skills</b></p>
+	<h3 class="bold">Key Skills</h3>
 	
 	<p>Java<br>
 	C++<br>
